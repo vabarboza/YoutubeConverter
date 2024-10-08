@@ -1,0 +1,13 @@
+﻿@model YoutubeConverter.Models.Video
+
+<h2>Download de Vídeo do YouTube</h2>
+
+<form asp-action="Download" method="post">
+    <div>
+        <label for="Url">URL do Vídeo:</label>
+        <input type="text" id="Url" name="Url" required />
+    </div>
+    <div>
+        <button type="submit">Baixar</button>
+    </div>
+</form>
